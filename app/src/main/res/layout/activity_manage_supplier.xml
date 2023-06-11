@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageSupplier">
+
+
+    <Button
+        android:id="@+id/ms_button2"
+        android:layout_width="153dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="99dp"
+        android:text="Remove Supplier"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3FFC107"
+        app:cornerRadius="50sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="557dp"
+        app:srcCompat="@drawable/smartconnectfuel" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="128dp"
+        android:layout_height="124dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="287dp"
+        app:srcCompat="@drawable/baseline_how_to_reg_24" />
+
+    <Button
+        android:id="@+id/ms_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="300dp"
+        android:text="Update Supplier"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3FFC107"
+        app:cornerRadius="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="129dp"
+        android:layout_height="127dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="283dp"
+        app:srcCompat="@drawable/baseline_person_add_24" />
+
+    <Button
+        android:id="@+id/mebutton"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="299dp"
+        android:text="Add Supplier"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3FFC107"
+        app:cornerRadius="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="97dp"
+        app:srcCompat="@drawable/baseline_person_remove_24" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="295dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="247dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="432dp"
+        android:text="Manage Supplier"
+        android:textSize="31sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageSales">
+
+
+    <Button
+        android:id="@+id/viewR"
+        android:layout_width="153dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="233dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="65dp"
+        android:text="View/Delete Report"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3FFC107"
+        app:cornerRadius="50sp" />
+
+    <Button
+        android:id="@+id/genR"
+        android:layout_width="153dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="62dp"
+        android:text="Generate Report"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3FFC107"
+        app:cornerRadius="50sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="557dp"
+        app:srcCompat="@drawable/smartconnectfuel" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="145dp"
+        android:layout_height="143dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="268dp"
+        app:srcCompat="@drawable/updatesales_foreground" />
+
+    <Button
+        android:id="@+id/updateS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="300dp"
+        android:text="Update Sales"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3FFC107"
+        app:cornerRadius="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="152dp"
+        android:layout_height="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="266dp"
+        app:srcCompat="@drawable/addsales_foreground" />
+
+    <Button
+        android:id="@+id/addS"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="299dp"
+        android:text="Add Sales"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3FFC107"
+        app:cornerRadius="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="62dp"
+        app:srcCompat="@drawable/generatereport_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="241dp"
+        android:layout_marginTop="531dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="66dp"
+        app:srcCompat="@drawable/viewdelete_report_foreground" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="439dp"
+        android:text="Manage Sales"
+        android:textSize="31sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

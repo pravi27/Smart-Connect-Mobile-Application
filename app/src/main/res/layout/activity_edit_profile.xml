@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfileActivity">
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="546dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="292dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/VehicleNo"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="231dp"
+        android:ems="10"
+        android:hint="VehicleNo"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/ContactNo"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="415dp"
+        android:ems="10"
+        android:hint="ContactNo"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/NIC"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="354dp"
+        android:ems="10"
+        android:hint="NIC"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="484dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/Savebtn"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="201dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="#FFC107"
+        android:text="Save Changes"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>

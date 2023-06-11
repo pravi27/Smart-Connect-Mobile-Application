@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyQR">
+
+    <Button
+        android:id="@+id/selectimagebtn"
+        android:layout_width="183dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="292dp"
+        android:backgroundTint="#FFC107"
+        android:text="    Select Image"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/uploadimage"
+        android:layout_width="225dp"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="374dp"
+        app:srcCompat="@drawable/uploadimage_foreground"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/uploadimagebtn"
+        android:layout_width="183dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="194dp"
+        android:backgroundTint="#FFC107"
+        android:text="    Upload Image"
+        android:textColor="@color/black" />
+</RelativeLayout>

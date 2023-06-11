@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditEmployeeProfile">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="182dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="518dp"
+        app:srcCompat="@drawable/profilepic" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="284dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EmpID"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="403dp"
+        android:hint="Employee ID"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="206dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="42dp"
+        android:text="Save Changes"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#D3FFC107" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="113dp"
+        android:text="I confirm above details." />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="148dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="341dp"
+        android:text="Enter new Username" />
+
+
+</RelativeLayout>

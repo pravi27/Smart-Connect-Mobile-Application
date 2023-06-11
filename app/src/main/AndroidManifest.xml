@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SmartConnect"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Login"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Myprofile_Cust"
+            android:exported="true" />
+
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ManageEmployee"
+            android:exported="true" />
+
+        <activity
+            android:name=".EnterFuelRecord"
+            android:exported="true" />
+        <activity
+            android:name=".fuel_stock"
+            android:exported="true" />
+        <activity
+            android:name=".records"
+            android:exported="true" />
+
+        <activity
+            android:name=".UpdateEmployee"
+            android:exported="true" />
+
+        <activity
+            android:name=".AddSales"
+            android:exported="true" />
+
+        <activity
+            android:name=".ManageSales"
+            android:exported="true" />
+
+        <activity
+            android:name=".UpdateSales"
+            android:exported="true" />
+
+        <activity
+            android:name=".GenerateReport"
+            android:exported="true" />
+        <activity
+            android:name=".Report"
+            android:exported="true" />
+
+        <activity
+            android:name=".ViewReport"
+            android:exported="true" />
+
+        <activity
+            android:name=".DeleteEmployee"
+            android:exported="true" />
+
+        <activity
+            android:name=".ViewEmployee"
+            android:exported="true" />
+
+        <activity
+            android:name=".employees"
+            android:exported="true" />
+
+        <activity
+            android:name=".AddNewEmployee"
+            android:exported="true" />
+
+        <activity
+            android:name=".stock"
+            android:exported="true" />
+
+        <activity
+            android:name=".update_stock"
+            android:exported="true" />
+
+        <activity
+            android:name=".ManageStock"
+            android:exported="true" />
+
+
+        <activity
+            android:name=".delete_supplier"
+            android:exported="true" />
+
+        <activity
+            android:name=".update_supplier"
+            android:exported="true" />
+
+        <activity
+            android:name=".add_supplier"
+            android:exported="true" />
+        <activity
+            android:name=".ManageSupplier"
+            android:exported="true" />
+
+        <activity
+            android:name=".Manager_home"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="true" />
+        <activity
+            android:name=".UploadAddPhoto"
+            android:exported="true" />
+        <activity
+            android:name=".fuelprices"
+            android:exported="true" />
+        <activity
+            android:name=".cust_map"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCqx3cr3SbYNvEco8Z6fAPTI3bZju6oigg" />
+
+        <activity
+            android:name=".EditEmployeeProfile"
+            android:exported="true" />
+        <activity
+            android:name=".EmployeeMyAccount"
+            android:exported="true" />
+        <activity
+            android:name=".scanned_code_activity"
+            android:exported="true" />
+        <activity
+            android:name=".emp_scan_qr"
+            android:exported="true" />
+        <activity
+            android:name=".cusaccount"
+            android:exported="true" />
+        <activity
+            android:name=".Employee_login"
+            android:exported="true" />
+        <activity
+            android:name=".Emp_home"
+            android:exported="true" />
+        <activity
+            android:name=".cus"
+            android:exported="true" />
+        <activity
+            android:name=".Manager_login"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".Customer"
+            android:exported="true" />
+        <activity
+            android:name=".SIGNUP"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

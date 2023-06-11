@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fuel_stock">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="409dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="284dp"
+        android:text="Petrol 92 Octane  -  Rs. "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="228dp"
+        android:text="Petrol 95 Octane  -  Rs. "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/View95"
+        android:layout_width="108dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="281dp"
+        android:layout_marginTop="466dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="212dp"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/View92"
+        android:layout_width="138dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="279dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="268dp"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ViewAD"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="523dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="158dp"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="575dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="118dp"
+        android:text="Super Diesel        -  Rs. "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ViewSD"
+        android:layout_width="116dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="578dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="105dp"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="173dp"
+        android:text="Auto Diesel          -  Rs. "
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="235dp"
+        android:layout_height="237dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="-59dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="553dp"
+        app:srcCompat="@drawable/smartconnectfuel"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="445dp"
+        android:text="Fuel Prices"
+        android:textSize="40sp" />
+
+
+</RelativeLayout>

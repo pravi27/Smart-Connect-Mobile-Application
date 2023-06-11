@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".emp_scan_qr">
+
+    <Button
+        android:id="@+id/scannow"
+        android:layout_width="241dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="379dp"
+        android:backgroundTint="#FFC107"
+        android:text="Scan Customer QR" />
+    <ImageView
+        android:layout_width="322dp"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="-19dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="473dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="306dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="243dp"
+        android:gravity="center"
+        android:text="Result" />
+
+    <TextView
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="840dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="-5dp"
+        android:text="©MIRACLE MATRIX.2023" />
+</RelativeLayout>

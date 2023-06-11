@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SIGNUP">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:text="Welcome to Smart Connect Fuel App!"
+        app:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="200dp"
+        android:text="Sign up and to create an Account" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="450dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nic"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="400dp"
+        android:hint="NIC No"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Contact No"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/vehical"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="300dp"
+        android:hint="Vehicle No"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="250dp"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usernameee"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="200dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passworddd"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="150dp"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="20dp"
+        android:text="Signup"
+        android:textSize="20dp"
+        app:backgroundTint="#D3FFC107" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="17dp"
+        android:text="login"
+        android:textSize="20dp"
+        app:backgroundTint="#D3FFC107" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="90dp"
+        android:text="I confirm above details." />
+
+
+
+</RelativeLayout>
